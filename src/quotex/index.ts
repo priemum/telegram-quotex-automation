@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer-extra';
 import StealthPlugin from 'puppeteer-extra-plugin-stealth';
 import { Page, executablePath } from 'puppeteer';
-import { TCurrencyPairs } from '../currencies';
+import { TCurrencyPairs } from '../currencies';       
 import { schedule } from 'node-cron';
 
 puppeteer.use(StealthPlugin());
